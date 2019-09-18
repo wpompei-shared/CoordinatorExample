@@ -11,7 +11,6 @@
 		7466090523326173005B3B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7466090423326173005B3B49 /* Assets.xcassets */; };
 		7466090823326173005B3B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7466090623326173005B3B49 /* LaunchScreen.storyboard */; };
 		7466091323326173005B3B49 /* CoordinatorExample+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466091223326173005B3B49 /* CoordinatorExample+Tests.swift */; };
-		7466091E23326173005B3B49 /* CoordinatorExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466091D23326173005B3B49 /* CoordinatorExampleUITests.swift */; };
 		7466093C2332624B005B3B49 /* ViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466092D2332624B005B3B49 /* ViewModelFactory.swift */; };
 		7466093D2332624B005B3B49 /* MainViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466092E2332624B005B3B49 /* MainViewModelFactory.swift */; };
 		7466093E2332624B005B3B49 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466092F2332624B005B3B49 /* MainCoordinator.swift */; };
@@ -33,13 +32,6 @@
 			remoteGlobalIDString = 746608F923326172005B3B49;
 			remoteInfo = CoordinatorExample;
 		};
-		7466091A23326173005B3B49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 746608F223326172005B3B49 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 746608F923326172005B3B49;
-			remoteInfo = CoordinatorExample;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -51,9 +43,6 @@
 		7466090E23326173005B3B49 /* CoordinatorExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7466091223326173005B3B49 /* CoordinatorExample+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoordinatorExample+Tests.swift"; sourceTree = "<group>"; };
 		7466091423326173005B3B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7466091923326173005B3B49 /* CoordinatorExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7466091D23326173005B3B49 /* CoordinatorExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorExampleUITests.swift; sourceTree = "<group>"; };
-		7466091F23326173005B3B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7466092D2332624B005B3B49 /* ViewModelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelFactory.swift; sourceTree = "<group>"; };
 		7466092E2332624B005B3B49 /* MainViewModelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModelFactory.swift; sourceTree = "<group>"; };
 		7466092F2332624B005B3B49 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
@@ -82,13 +71,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7466091623326173005B3B49 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,7 +79,6 @@
 			children = (
 				746608FC23326172005B3B49 /* CoordinatorExample */,
 				7466091123326173005B3B49 /* CoordinatorExampleTests */,
-				7466091C23326173005B3B49 /* CoordinatorExampleUITests */,
 				746608FB23326172005B3B49 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,7 +88,6 @@
 			children = (
 				746608FA23326172005B3B49 /* CoordinatorExample.app */,
 				7466090E23326173005B3B49 /* CoordinatorExampleTests.xctest */,
-				7466091923326173005B3B49 /* CoordinatorExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,15 +112,6 @@
 				7466091423326173005B3B49 /* Info.plist */,
 			);
 			path = CoordinatorExampleTests;
-			sourceTree = "<group>";
-		};
-		7466091C23326173005B3B49 /* CoordinatorExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7466091D23326173005B3B49 /* CoordinatorExampleUITests.swift */,
-				7466091F23326173005B3B49 /* Info.plist */,
-			);
-			path = CoordinatorExampleUITests;
 			sourceTree = "<group>";
 		};
 		7466092B2332624B005B3B49 /* coordinator */ = {
@@ -238,24 +209,6 @@
 			productReference = 7466090E23326173005B3B49 /* CoordinatorExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7466091823326173005B3B49 /* CoordinatorExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7466092823326173005B3B49 /* Build configuration list for PBXNativeTarget "CoordinatorExampleUITests" */;
-			buildPhases = (
-				7466091523326173005B3B49 /* Sources */,
-				7466091623326173005B3B49 /* Frameworks */,
-				7466091723326173005B3B49 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7466091B23326173005B3B49 /* PBXTargetDependency */,
-			);
-			name = CoordinatorExampleUITests;
-			productName = CoordinatorExampleUITests;
-			productReference = 7466091923326173005B3B49 /* CoordinatorExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -270,10 +223,6 @@
 						CreatedOnToolsVersion = 10.3;
 					};
 					7466090D23326173005B3B49 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 746608F923326172005B3B49;
-					};
-					7466091823326173005B3B49 = {
 						CreatedOnToolsVersion = 10.3;
 						TestTargetID = 746608F923326172005B3B49;
 					};
@@ -294,7 +243,6 @@
 			targets = (
 				746608F923326172005B3B49 /* CoordinatorExample */,
 				7466090D23326173005B3B49 /* CoordinatorExampleTests */,
-				7466091823326173005B3B49 /* CoordinatorExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,13 +260,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7466090C23326173005B3B49 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7466091723326173005B3B49 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,14 +294,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7466091523326173005B3B49 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7466091E23326173005B3B49 /* CoordinatorExampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -368,11 +301,6 @@
 			isa = PBXTargetDependency;
 			target = 746608F923326172005B3B49 /* CoordinatorExample */;
 			targetProxy = 7466090F23326173005B3B49 /* PBXContainerItemProxy */;
-		};
-		7466091B23326173005B3B49 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 746608F923326172005B3B49 /* CoordinatorExample */;
-			targetProxy = 7466091A23326173005B3B49 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -582,46 +510,6 @@
 			};
 			name = Release;
 		};
-		7466092923326173005B3B49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B5QW9XW7YB;
-				INFOPLIST_FILE = CoordinatorExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.notsoux.CoordinatorExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CoordinatorExample;
-			};
-			name = Debug;
-		};
-		7466092A23326173005B3B49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B5QW9XW7YB;
-				INFOPLIST_FILE = CoordinatorExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.notsoux.CoordinatorExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CoordinatorExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -648,15 +536,6 @@
 			buildConfigurations = (
 				7466092623326173005B3B49 /* Debug */,
 				7466092723326173005B3B49 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7466092823326173005B3B49 /* Build configuration list for PBXNativeTarget "CoordinatorExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7466092923326173005B3B49 /* Debug */,
-				7466092A23326173005B3B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
